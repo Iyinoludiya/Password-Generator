@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Karla", Arial, sans-serif;
+}
+
+body {
+    background-color: #1C1C1C;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.green {
+    color: #55F991;
+}
+
+
+.generator {
+    background-color: #1F2937;
+    width : 500px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0.7em;
+    color: white;
+}
+
+.toggle-mode {
+    background-color: #ECFDF5;
+    color: #2B283A;
+}
+
+.generate-btn, .toggle-btn {
+    background-color: #10B981;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.seperator {
+    width: 446px;
+    height: 1px;
+    background-color: #2F3E53;
+}
+
+.password {
+    width: 211px;
+    height: 20px;
+    /* border: 6px solid; */
+    background-color: #273549;
+    padding: 10px;
+    margin: 30px 0;
+    color: #55F991;
+    text-align: center;
+  }
+
+/* .passwords {
+    display: flex;
+    flex-direction: column;
+} */
+
