@@ -15,6 +15,19 @@ function generatePass() {
 
     document.getElementById("password").value = password;
 
+    let password1 = "";
+    let str1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
+        "abcdefghijklmnopqrstuvwxyz0123456789" + 
+        "@#$*!%<>/?+_-][{}~`^()";
+
+    for (let i = 1; i <= 15; i++) {
+        let newPassword = Math.floor(Math.random()
+            * str1.length + 1);
+        password1 += str1.charAt(newPassword);
+    }
+
+    document.getElementById("password1").value = password1;
+
     }
 
     function toggleMode() {

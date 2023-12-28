@@ -10,12 +10,13 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 p {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: Inter;
 }
 
 .green {
@@ -25,10 +26,10 @@ p {
 
 .generator {
     background-color: #1F2937;
-    width : 500px;
+    width : 250px;
     height: 500px;
     margin: 50px auto;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 20px;
     border-radius: 0.7em;
     color: white;
 }
@@ -53,7 +54,7 @@ p {
 }
 
 .seperator {
-    width: 446px;
+    width: 250px;
     height: 1px;
     background-color: #2F3E53;
 }
@@ -67,6 +68,7 @@ p {
     margin: 30px 0;
     color: #55F991;
     text-align: center;
+    display: block;
   }
 
 /* .passwords {
@@ -74,3 +76,26 @@ p {
     flex-direction: column;
 } */
 
+@media only screen and (min-width: 992px) {
+    .password {
+        display:inline-flex;
+      }
+
+      h1 {
+        font-size: 40px;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .seperator {
+        width: 460px;
+    }
+
+    .generator {
+        width : 500px;
+        height: 500px;
+        margin: 50px auto;
+    }
+}
